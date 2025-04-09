@@ -12,6 +12,7 @@ onHide(() => {
 </script>
 <style>
 @import "weapp-tailwindcss/css";
+@source not "dist";
 
 .reset-button {
     padding: 0;
