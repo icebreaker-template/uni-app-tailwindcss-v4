@@ -11,5 +11,17 @@ onHide(() => {
 });
 </script>
 <style>
+@import "weapp-tailwindcss/css";
 
+.reset-button {
+    padding: 0;
+    background-color: transparent;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+
+    &::after {
+        border: none;
+    }
+}
 </style>
