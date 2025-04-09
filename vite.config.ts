@@ -9,24 +9,22 @@ import { UnifiedViteWeappTailwindcssPlugin } from 'weapp-tailwindcss/vite'
 import tailwindcss from '@tailwindcss/postcss'
 
 // https://vitejs.dev/config/
-export default defineConfig(async () => {
-  return {
-    plugins: [
-      // 改成 mts，则爆 uni is not a function
-      uni(),
-      UnifiedViteWeappTailwindcssPlugin(
-        {
-          rem2rpx: true,
-          disabled: WeappTailwindcssDisabled
-        }
-      )
-    ],
-    css: {
-      postcss: {
-        plugins: [
-          tailwindcss()
-        ]
+export default defineConfig({
+  plugins: [
+    // 改成 mts，则爆 uni is not a function
+    uni(),
+    UnifiedViteWeappTailwindcssPlugin(
+      {
+        rem2rpx: true,
+        disabled: WeappTailwindcssDisabled
       }
+    )
+  ],
+  css: {
+    postcss: {
+      plugins: [
+        tailwindcss()
+      ]
     }
   }
 });
