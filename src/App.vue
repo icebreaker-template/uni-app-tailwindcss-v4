@@ -10,10 +10,8 @@ onHide(() => {
   console.log("App Hide");
 });
 </script>
+<style src="./main.css"></style>
 <style>
-@import "weapp-tailwindcss/css";
-@source not "dist";
-
 .reset-button {
     padding: 0;
     background-color: transparent;
