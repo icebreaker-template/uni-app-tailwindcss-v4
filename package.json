@@ -78,6 +78,7 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
+      "@tailwindcss/oxide",
       "@weapp-tailwindcss/merge",
       "weapp-tailwindcss"
     ]
