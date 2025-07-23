@@ -10,7 +10,7 @@ onHide(() => {
   console.log("App Hide");
 });
 </script>
-<style src="./main.css"></style>
+
 <style>
 .reset-button {
     padding: 0;
