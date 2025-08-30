@@ -7,6 +7,7 @@ const WeappTailwindcssDisabled = isH5 || isApp
 import uni from "@dcloudio/vite-plugin-uni";
 import { UnifiedViteWeappTailwindcssPlugin } from 'weapp-tailwindcss/vite'
 import tailwindcss from '@tailwindcss/postcss'
+import path from "node:path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -16,7 +17,10 @@ export default defineConfig({
     UnifiedViteWeappTailwindcssPlugin(
       {
         rem2rpx: true,
-        disabled: WeappTailwindcssDisabled
+        disabled: WeappTailwindcssDisabled,
+        cssEntries: [
+          path.resolve(__dirname, 'src/main.css')
+        ]
       }
     )
   ],

@@ -9,7 +9,7 @@
     </view>
     <view>
       <IceButton custom-class="bg-amber-600">
-        获取值
+        按钮示例
       </IceButton>
     </view>
 
