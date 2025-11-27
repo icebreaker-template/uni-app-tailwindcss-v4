@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@source not "dist";
+@source not "../../dist/";
 
 @theme {
     --color-green: #00ad76;

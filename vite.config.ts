@@ -19,7 +19,7 @@ export default defineConfig({
         rem2rpx: true,
         disabled: WeappTailwindcssDisabled,
         cssEntries: [
-          path.resolve(__dirname, 'src/main.css')
+          path.resolve(__dirname, 'src/style/main.css')
         ]
       }
     )
