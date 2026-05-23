@@ -966,6 +966,9 @@ view,text,:before,:after {
 .text-_b56rpx_B {
     font-size: 56rpx;
   }
+.text-_b126rpx_B {
+    font-size: 126rpx;
+  }
 .text-emerald-100 {
     color: var(--color-emerald-100);
   }
