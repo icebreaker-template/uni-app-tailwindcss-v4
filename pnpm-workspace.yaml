@@ -1,0 +1,11 @@
+packages:
+  - .
+allowBuilds:
+  core-js: false
+  core-js-pure: false
+  esbuild: true
+  sharp: true
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - '@weapp-tailwindcss/postcss@3.3.1'
+  - weapp-tailwindcss@5.5.0

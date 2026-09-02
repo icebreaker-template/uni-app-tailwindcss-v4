@@ -18,7 +18,7 @@
 
 ## 使用前提
 
-- Node.js `20.19+`
+- Node.js `22.12+`（`weapp-tailwindcss@5.2.0` 起）
 - `pnpm`
 - 微信开发者工具
 
@@ -42,11 +42,11 @@ pnpm open:build
 
 ## 模板说明
 
-- 安装依赖后会自动执行 `weapp-tw patch`
+- 生成模式不需要配置 `postinstall: "weapp-tw patch"`
 - 保留了 `up:pkg` 与 `up:uniapp` 用于依赖升级
 - 如果你更偏 HBuilderX 工作流，可使用 `uni-app-hbuilderx-tailwindcss-v4`
 
 ## 相关文档
 
-- `weapp-tailwindcss`：<https://tw.icebreaker.top/>
+- `weapp-tailwindcss`：<https://tw.weapp.dev/>
 - `uni-app`：<https://uniapp.dcloud.net.cn/>
